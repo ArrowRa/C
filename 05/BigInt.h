@@ -6,7 +6,6 @@ const int BASE = 10;
 class BigInt
 {
         friend ostream &operator<< (ostream &, const BigInt &);
-    private:
         int mr;
         int size_BI;
         char *ptr;
